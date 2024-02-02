@@ -7,33 +7,33 @@
 header,
 section h2 
 section h3 {
-    font-family: 'Bungee', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
 }
 
 body , input, textarea {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Playfair Display', serif;
   }
 
 header {
     padding: 16px 0;
-    background-color: rgb(69, 69, 168);
-    color: white;
+    background-color: rgb(168, 95, 69);
+    color: rgb(174, 185, 21);
 }
 
 header nav li {
     display: inline;
     margin: 16px;
-    font-size: 18px;
+    font-size: 18px;    
  }
 
 header nav a {
-   color: white;
+   color: rgb(174, 185, 21);
    text-decoration: none;
 }
 
 .container {
-    max-width: 1280;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
@@ -67,10 +67,10 @@ section h2 {
 }
 
 section {
-    color: rgb(69, 69, 168);
+    color: ;
 }
 
-sectio p {
+section p {
     margin-bottom: 8px;
 }
 
@@ -91,6 +91,7 @@ sectio p {
     text-decoration: none;
 }
 
+
 #contact .container {
     display: block;
 }
@@ -100,7 +101,7 @@ sectio p {
     justify-content: space-between;
 }
 
-Form input,
+form input,
 form textarea,
 form button {
     display: block;
@@ -119,8 +120,8 @@ section h3 {
 }    
 
 form button {
-    background-color: rgb(73, 73, 179);
-    color: white;
+    background-color: rgb(168, 95, 69);
+    color: rgb(174, 185, 21);
     border: none;
     cursor: pointer;
 }
@@ -130,11 +131,11 @@ form button:hover {
 }
 
 input:focus, textarea:focus {
-    outline-color: blue    ;
+    outline-color: rgb(168, 95, 69)   ;
 }
 
 footer {
-    background-color: blue;
-    color: white;
+    background-color: rgb(168, 95, 69);
+    color: rgb(174, 185, 21);
     padding: 16px 0 ;
 }
